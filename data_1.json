@@ -1,0 +1,1280 @@
+{
+ "label": "① A/B/D/E 統合",
+ "generated_at": "2026-08-12 08:26:15",
+ "summary": {
+  "total_pnl": 347990,
+  "total_decided": 292,
+  "total_wins": 133,
+  "win_rate": 45.5,
+  "days": 52
+ },
+ "days": [
+  {
+   "date": "20260429",
+   "date_disp": "2026/04/29",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260430",
+   "date_disp": "2026/04/30",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260501",
+   "date_disp": "2026/05/01",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260505",
+   "date_disp": "2026/05/05",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260507",
+   "date_disp": "2026/05/07",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260508",
+   "date_disp": "2026/05/08",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260511",
+   "date_disp": "2026/05/11",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260512",
+   "date_disp": "2026/05/12",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260514",
+   "date_disp": "2026/05/14",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260515",
+   "date_disp": "2026/05/15",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260518",
+   "date_disp": "2026/05/18",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260519",
+   "date_disp": "2026/05/19",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260520",
+   "date_disp": "2026/05/20",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260521",
+   "date_disp": "2026/05/21",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260525",
+   "date_disp": "2026/05/25",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260526",
+   "date_disp": "2026/05/26",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260527",
+   "date_disp": "2026/05/27",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260601",
+   "date_disp": "2026/06/01",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260605",
+   "date_disp": "2026/06/05",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260610",
+   "date_disp": "2026/06/10",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260616",
+   "date_disp": "2026/06/16",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260629",
+   "date_disp": "2026/06/29",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260630",
+   "date_disp": "2026/06/30",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260701",
+   "date_disp": "2026/07/01",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260702",
+   "date_disp": "2026/07/02",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260703",
+   "date_disp": "2026/07/03",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260706",
+   "date_disp": "2026/07/06",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260707",
+   "date_disp": "2026/07/07",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260708",
+   "date_disp": "2026/07/08",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260715",
+   "date_disp": "2026/07/15",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260716",
+   "date_disp": "2026/07/16",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 499,
+   "turnover": 0,
+   "by_strategy": {
+    "A": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 243,
+     "turnover": 0
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 220,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 34,
+     "turnover": 0
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 2,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260717",
+   "date_disp": "2026/07/17",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 900,
+   "turnover": 0,
+   "by_strategy": {
+    "A": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 387,
+     "turnover": 0
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 491,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 17,
+     "turnover": 0
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 5,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260719",
+   "date_disp": "2026/07/19",
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260722",
+   "date_disp": "2026/07/22",
+   "pnl": 2830,
+   "cum_pnl": 2830,
+   "decided": 3,
+   "wins": 1,
+   "win_rate": 33.3,
+   "entries": 3,
+   "fires": 731,
+   "turnover": 792930,
+   "by_strategy": {
+    "A": {
+     "pnl": 2830,
+     "decided": 3,
+     "wins": 1,
+     "win_rate": 33.3,
+     "entries": 3,
+     "fires": 269,
+     "turnover": 792930
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 423,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 33,
+     "turnover": 0
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 6,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260723",
+   "date_disp": "2026/07/23",
+   "pnl": -4240,
+   "cum_pnl": -1410,
+   "decided": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 3,
+   "fires": 796,
+   "turnover": 785230,
+   "by_strategy": {
+    "A": {
+     "pnl": -4240,
+     "decided": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 3,
+     "fires": 352,
+     "turnover": 785230
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 422,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 18,
+     "turnover": 0
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 4,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260724",
+   "date_disp": "2026/07/24",
+   "pnl": 5370,
+   "cum_pnl": 3960,
+   "decided": 4,
+   "wins": 2,
+   "win_rate": 50.0,
+   "entries": 4,
+   "fires": 230,
+   "turnover": 793360,
+   "by_strategy": {
+    "A": {
+     "pnl": 5370,
+     "decided": 4,
+     "wins": 2,
+     "win_rate": 50.0,
+     "entries": 4,
+     "fires": 60,
+     "turnover": 793360
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 143,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 24,
+     "turnover": 0
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 3,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260727",
+   "date_disp": "2026/07/27",
+   "pnl": 2120,
+   "cum_pnl": 6080,
+   "decided": 4,
+   "wins": 2,
+   "win_rate": 50.0,
+   "entries": 4,
+   "fires": 143,
+   "turnover": 793230,
+   "by_strategy": {
+    "A": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 32,
+     "turnover": 0
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 76,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 2120,
+     "decided": 4,
+     "wins": 2,
+     "win_rate": 50.0,
+     "entries": 4,
+     "fires": 28,
+     "turnover": 793230
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 7,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260728",
+   "date_disp": "2026/07/28",
+   "pnl": -3950,
+   "cum_pnl": 2130,
+   "decided": 2,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 2,
+   "fires": 132,
+   "turnover": 627450,
+   "by_strategy": {
+    "A": {
+     "pnl": -3950,
+     "decided": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 2,
+     "fires": 34,
+     "turnover": 627450
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 81,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 9,
+     "turnover": 0
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 8,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260729",
+   "date_disp": "2026/07/29",
+   "pnl": 75270,
+   "cum_pnl": 77400,
+   "decided": 40,
+   "wins": 25,
+   "win_rate": 62.5,
+   "entries": 40,
+   "fires": 133,
+   "turnover": 15837730,
+   "by_strategy": {
+    "A": {
+     "pnl": 28250,
+     "decided": 23,
+     "wins": 12,
+     "win_rate": 52.2,
+     "entries": 23,
+     "fires": 60,
+     "turnover": 8936400
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 43,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": 22680,
+     "decided": 12,
+     "wins": 8,
+     "win_rate": 66.7,
+     "entries": 12,
+     "fires": 20,
+     "turnover": 4972300
+    },
+    "D": {
+     "pnl": 24340,
+     "decided": 5,
+     "wins": 5,
+     "win_rate": 100.0,
+     "entries": 5,
+     "fires": 10,
+     "turnover": 1929030
+    }
+   }
+  },
+  {
+   "date": "20260730",
+   "date_disp": "2026/07/30",
+   "pnl": -22140,
+   "cum_pnl": 55260,
+   "decided": 54,
+   "wins": 18,
+   "win_rate": 33.3,
+   "entries": 54,
+   "fires": 140,
+   "turnover": 22403880,
+   "by_strategy": {
+    "A": {
+     "pnl": -2070,
+     "decided": 38,
+     "wins": 15,
+     "win_rate": 39.5,
+     "entries": 38,
+     "fires": 76,
+     "turnover": 16006690
+    },
+    "B": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 38,
+     "turnover": 0
+    },
+    "C": {
+     "pnl": -11840,
+     "decided": 9,
+     "wins": 2,
+     "win_rate": 22.2,
+     "entries": 9,
+     "fires": 16,
+     "turnover": 3793310
+    },
+    "D": {
+     "pnl": -8230,
+     "decided": 7,
+     "wins": 1,
+     "win_rate": 14.3,
+     "entries": 7,
+     "fires": 10,
+     "turnover": 2603880
+    }
+   }
+  },
+  {
+   "date": "20260731",
+   "date_disp": "2026/07/31",
+   "pnl": -28910,
+   "cum_pnl": 26350,
+   "decided": 49,
+   "wins": 14,
+   "win_rate": 28.6,
+   "entries": 49,
+   "fires": 145,
+   "turnover": 19981100,
+   "by_strategy": {
+    "A": {
+     "pnl": -8890,
+     "decided": 24,
+     "wins": 7,
+     "win_rate": 29.2,
+     "entries": 24,
+     "fires": 37,
+     "turnover": 9944090
+    },
+    "B": {
+     "pnl": 900,
+     "decided": 2,
+     "wins": 1,
+     "win_rate": 50.0,
+     "entries": 2,
+     "fires": 72,
+     "turnover": 847950
+    },
+    "C": {
+     "pnl": -27860,
+     "decided": 18,
+     "wins": 3,
+     "win_rate": 16.7,
+     "entries": 18,
+     "fires": 28,
+     "turnover": 7347860
+    },
+    "D": {
+     "pnl": 6940,
+     "decided": 5,
+     "wins": 3,
+     "win_rate": 60.0,
+     "entries": 5,
+     "fires": 8,
+     "turnover": 1841200
+    }
+   }
+  },
+  {
+   "date": "20260802",
+   "date_disp": "2026/08/02",
+   "pnl": 0,
+   "cum_pnl": 26350,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260803",
+   "date_disp": "2026/08/03",
+   "pnl": 36560,
+   "cum_pnl": 62910,
+   "decided": 29,
+   "wins": 16,
+   "win_rate": 55.2,
+   "entries": 29,
+   "fires": 179,
+   "turnover": 11648780,
+   "by_strategy": {
+    "A": {
+     "pnl": 10700,
+     "decided": 7,
+     "wins": 4,
+     "win_rate": 57.1,
+     "entries": 7,
+     "fires": 9,
+     "turnover": 2520350
+    },
+    "B": {
+     "pnl": 31650,
+     "decided": 16,
+     "wins": 11,
+     "win_rate": 68.8,
+     "entries": 16,
+     "fires": 154,
+     "turnover": 6678370
+    },
+    "C": {
+     "pnl": 1200,
+     "decided": 3,
+     "wins": 1,
+     "win_rate": 33.3,
+     "entries": 3,
+     "fires": 3,
+     "turnover": 1212600
+    },
+    "D": {
+     "pnl": -1600,
+     "decided": 1,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 1,
+     "fires": 1,
+     "turnover": 262850
+    },
+    "E": {
+     "pnl": -5390,
+     "decided": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 2,
+     "fires": 12,
+     "turnover": 974610
+    }
+   }
+  },
+  {
+   "date": "20260804",
+   "date_disp": "2026/08/04",
+   "pnl": 129480,
+   "cum_pnl": 192390,
+   "decided": 32,
+   "wins": 16,
+   "win_rate": 50.0,
+   "entries": 32,
+   "fires": 270,
+   "turnover": 36304210,
+   "by_strategy": {
+    "A": {
+     "pnl": 6800,
+     "decided": 9,
+     "wins": 5,
+     "win_rate": 55.6,
+     "entries": 9,
+     "fires": 10,
+     "turnover": 11228400
+    },
+    "B": {
+     "pnl": 36000,
+     "decided": 15,
+     "wins": 6,
+     "win_rate": 40.0,
+     "entries": 15,
+     "fires": 223,
+     "turnover": 14145250
+    },
+    "C": {
+     "pnl": -14000,
+     "decided": 2,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 2,
+     "fires": 18,
+     "turnover": 2882650
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 2,
+     "turnover": 0
+    },
+    "E": {
+     "pnl": 100680,
+     "decided": 6,
+     "wins": 5,
+     "win_rate": 83.3,
+     "entries": 6,
+     "fires": 17,
+     "turnover": 8047910
+    }
+   }
+  },
+  {
+   "date": "20260805",
+   "date_disp": "2026/08/05",
+   "pnl": 88890,
+   "cum_pnl": 281280,
+   "decided": 30,
+   "wins": 18,
+   "win_rate": 60.0,
+   "entries": 30,
+   "fires": 254,
+   "turnover": 35559710,
+   "by_strategy": {
+    "A": {
+     "pnl": 17880,
+     "decided": 2,
+     "wins": 2,
+     "win_rate": 100.0,
+     "entries": 2,
+     "fires": 6,
+     "turnover": 1977180
+    },
+    "B": {
+     "pnl": 22640,
+     "decided": 11,
+     "wins": 6,
+     "win_rate": 54.5,
+     "entries": 11,
+     "fires": 207,
+     "turnover": 14722220
+    },
+    "C": {
+     "pnl": -3180,
+     "decided": 13,
+     "wins": 6,
+     "win_rate": 46.2,
+     "entries": 13,
+     "fires": 29,
+     "turnover": 13192960
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 2,
+     "turnover": 0
+    },
+    "E": {
+     "pnl": 51550,
+     "decided": 4,
+     "wins": 4,
+     "win_rate": 100.0,
+     "entries": 4,
+     "fires": 10,
+     "turnover": 5667350
+    }
+   }
+  },
+  {
+   "date": "20260806",
+   "date_disp": "2026/08/06",
+   "pnl": 20760,
+   "cum_pnl": 302040,
+   "decided": 23,
+   "wins": 10,
+   "win_rate": 43.5,
+   "entries": 23,
+   "fires": 202,
+   "turnover": 33295710,
+   "by_strategy": {
+    "A": {
+     "pnl": 32450,
+     "decided": 3,
+     "wins": 3,
+     "win_rate": 100.0,
+     "entries": 3,
+     "fires": 8,
+     "turnover": 3524210
+    },
+    "B": {
+     "pnl": 53100,
+     "decided": 8,
+     "wins": 5,
+     "win_rate": 62.5,
+     "entries": 8,
+     "fires": 152,
+     "turnover": 15254400
+    },
+    "C": {
+     "pnl": -55590,
+     "decided": 11,
+     "wins": 2,
+     "win_rate": 18.2,
+     "entries": 11,
+     "fires": 32,
+     "turnover": 12738700
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 2,
+     "turnover": 0
+    },
+    "E": {
+     "pnl": -9200,
+     "decided": 1,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 1,
+     "fires": 8,
+     "turnover": 1778400
+    }
+   }
+  },
+  {
+   "date": "20260807",
+   "date_disp": "2026/08/07",
+   "pnl": 45950,
+   "cum_pnl": 347990,
+   "decided": 20,
+   "wins": 11,
+   "win_rate": 55.0,
+   "entries": 20,
+   "fires": 113,
+   "turnover": 26973700,
+   "by_strategy": {
+    "A": {
+     "pnl": -4050,
+     "decided": 4,
+     "wins": 2,
+     "win_rate": 50.0,
+     "entries": 4,
+     "fires": 8,
+     "turnover": 5202800
+    },
+    "B": {
+     "pnl": 21900,
+     "decided": 3,
+     "wins": 3,
+     "win_rate": 100.0,
+     "entries": 3,
+     "fires": 80,
+     "turnover": 3748700
+    },
+    "D": {
+     "pnl": 27050,
+     "decided": 5,
+     "wins": 3,
+     "win_rate": 60.0,
+     "entries": 5,
+     "fires": 6,
+     "turnover": 6452500
+    },
+    "E": {
+     "pnl": 1050,
+     "decided": 8,
+     "wins": 3,
+     "win_rate": 37.5,
+     "entries": 8,
+     "fires": 19,
+     "turnover": 11569700
+    }
+   }
+  },
+  {
+   "date": "20260808",
+   "date_disp": "2026/08/08",
+   "pnl": 0,
+   "cum_pnl": 347990,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260809",
+   "date_disp": "2026/08/09",
+   "pnl": 0,
+   "cum_pnl": 347990,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260810",
+   "date_disp": "2026/08/10",
+   "pnl": 0,
+   "cum_pnl": 347990,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260811",
+   "date_disp": "2026/08/11",
+   "pnl": 0,
+   "cum_pnl": 347990,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  },
+  {
+   "date": "20260812",
+   "date_disp": "2026/08/12",
+   "pnl": 0,
+   "cum_pnl": 347990,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
+   "fires": 0,
+   "turnover": 0,
+   "by_strategy": {}
+  }
+ ]
+}

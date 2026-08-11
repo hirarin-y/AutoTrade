@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AUTO_TRADER 成績（公開版）</title>
+<style>
+  :root{ --bg:#0a0e14; --panel:#121824; --line:#223; --tx:#e6edf3; --sub:#8b98a5;
+         --grn:#3fb950; --red:#f85149; --acc:#58a6ff; --orange:#f5a623; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--tx);
+        font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  header{ position:sticky; top:0; background:rgba(10,14,20,.95); backdrop-filter:blur(6px);
+          padding:14px 16px; border-bottom:1px solid var(--line); z-index:10; }
+  h1{ font-size:16px; margin:0; letter-spacing:1px; }
+  .sub{ font-size:11px; color:var(--sub); margin-top:2px; }
+  .tabs{ display:flex; gap:8px; padding:12px 16px; }
+  .tab{ flex:1; text-align:center; padding:10px; border-radius:10px; background:var(--panel);
+        border:1px solid var(--line); color:var(--sub); font-weight:700; cursor:pointer; }
+  .tab.active{ color:#00e5ff; border-color:#00e5ff55; }
+  .tab.active.x{ color:var(--orange); border-color:var(--orange); }
+  .wrap{ padding:0 16px 40px; max-width:900px; margin:0 auto; }
+  .card{ background:var(--panel); border:1px solid var(--line); border-radius:12px;
+         padding:16px; margin-bottom:14px; }
+  .big{ font-size:30px; font-weight:800; }
+  .pos{ color:var(--grn); } .neg{ color:var(--red); }
+  .grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+  .grid .k{ font-size:11px; color:var(--sub); } .grid .v{ font-size:18px; font-weight:700; }
+  table{ width:100%; border-collapse:collapse; font-size:13px; }
+  th,td{ padding:8px 6px; border-bottom:1px solid var(--line); text-align:right; }
+  th:first-child,td:first-child{ text-align:left; }
+  th{ color:var(--sub); font-weight:600; font-size:11px; }
+  .muted{ color:var(--sub); }
+  svg{ width:100%; height:180px; }
+  .stlabel{ font-size:11px; color:var(--sub); margin:14px 0 6px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>AUTO_TRADER 成績（公開版）</h1>
+  <div class="sub" id="gen">読み込み中…</div>
+</header>
+<div class="tabs">
+  <div class="tab active" id="tab1" onclick="show('1')">① A/B/D/E</div>
+  <div class="tab x" id="tabx" onclick="show('x')">X Bオンリー</div>
+</div>
+<div class="wrap" id="wrap"></div>
+
+<script>
+const DATA = {};
+async function load(key){
+  if(DATA[key]) return DATA[key];
+  const r = await fetch(`data_${key}.json?_=${Date.now()}`);
+  DATA[key] = await r.json();
+  return DATA[key];
+}
+function yen(n){ const s=(n>=0?'+':'')+n.toLocaleString('ja-JP'); return s+'円'; }
+function cls(n){ return n>0?'pos':(n<0?'neg':''); }
+
+function chart(days){
+  if(!days.length) return '<div class="muted">データがありません</div>';
+  const W=700,H=180,pad=8;
+  const ys=days.map(d=>d.cum_pnl);
+  const min=Math.min(0,...ys), max=Math.max(0,...ys);
+  const span=(max-min)||1;
+  const x=i=>pad+(W-2*pad)*(days.length===1?0.5:i/(days.length-1));
+  const y=v=>H-pad-(H-2*pad)*((v-min)/span);
+  let d='';
+  days.forEach((p,i)=>{ d+=(i?'L':'M')+x(i).toFixed(1)+' '+y(p.cum_pnl).toFixed(1)+' '; });
+  const zero=y(0);
+  const last=days[days.length-1].cum_pnl;
+  const col=last>=0?'#3fb950':'#f85149';
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <line x1="0" y1="${zero}" x2="${W}" y2="${zero}" stroke="#334" stroke-dasharray="4 4"/>
+    <path d="${d}" fill="none" stroke="${col}" stroke-width="2.5"/>
+  </svg>`;
+}
+
+function stratTable(days){
+  // 全期間の戦略別合計
+  const acc={};
+  days.forEach(day=>{
+    const bs=day.by_strategy||{};
+    for(const s in bs){
+      if(!acc[s]) acc[s]={pnl:0,decided:0,wins:0,entries:0,fires:0};
+      acc[s].pnl+=bs[s].pnl; acc[s].decided+=bs[s].decided; acc[s].wins+=bs[s].wins;
+      acc[s].entries+=bs[s].entries; acc[s].fires+=bs[s].fires;
+    }
+  });
+  const order=['A','B','C','D','E'].filter(s=>acc[s]);
+  if(!order.length) return '<div class="muted">取引データがありません</div>';
+  let rows='';
+  order.forEach(s=>{
+    const v=acc[s]; const wr=v.decided?(v.wins/v.decided*100).toFixed(0):'0';
+    rows+=`<tr><td>${s}</td><td class="${cls(v.pnl)}">${yen(v.pnl)}</td>
+      <td>${wr}%</td><td>${v.wins}/${v.decided}</td><td>${v.entries}</td></tr>`;
+  });
+  return `<table><tr><th>戦略</th><th>損益</th><th>勝率</th><th>勝/決済</th><th>新規</th></tr>${rows}</table>`;
+}
+
+function dayTable(days){
+  let rows='';
+  [...days].reverse().forEach(d=>{
+    rows+=`<tr><td>${d.date_disp}</td><td class="${cls(d.pnl)}">${yen(d.pnl)}</td>
+      <td>${d.win_rate}%</td><td>${d.wins}/${d.decided}</td>
+      <td class="${cls(d.cum_pnl)}">${yen(d.cum_pnl)}</td></tr>`;
+  });
+  return `<table><tr><th>日付</th><th>損益</th><th>勝率</th><th>勝/決済</th><th>累計</th></tr>${rows}</table>`;
+}
+
+async function show(key){
+  document.getElementById('tab1').classList.toggle('active', key==='1');
+  document.getElementById('tabx').classList.toggle('active', key==='x');
+  const data = await load(key);
+  document.getElementById('gen').textContent =
+     `${data.label} ・ 更新: ${data.generated_at}（PCが最後にアップした時点）`;
+  const s=data.summary;
+  const days=data.days;
+  document.getElementById('wrap').innerHTML = `
+    <div class="card">
+      <div class="muted" style="font-size:12px">累計損益（全${s.days}日）</div>
+      <div class="big ${cls(s.total_pnl)}">${yen(s.total_pnl)}</div>
+      <div class="grid" style="margin-top:12px">
+        <div><div class="k">勝率</div><div class="v">${s.win_rate}%</div></div>
+        <div><div class="k">決済数</div><div class="v">${s.total_decided}</div></div>
+        <div><div class="k">勝ち</div><div class="v">${s.total_wins}</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="muted" style="font-size:12px">累積損益の推移</div>
+      ${chart(days)}
+    </div>
+    <div class="card">
+      <div class="stlabel">戦略別（全期間）</div>
+      ${stratTable(days)}
+    </div>
+    <div class="card">
+      <div class="stlabel">日別</div>
+      ${dayTable(days)}
+    </div>`;
+}
+show('1');
+</script>
+</body>
+</html>
