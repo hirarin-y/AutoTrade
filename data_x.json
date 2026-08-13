@@ -1,12 +1,12 @@
 {
  "label": "X Bオンリー",
- "generated_at": "2026-08-12 21:00:39",
+ "generated_at": "2026-08-13 15:40:04",
  "summary": {
-  "total_pnl": 30560,
-  "total_decided": 11,
-  "total_wins": 7,
-  "win_rate": 63.6,
-  "days": 2
+  "total_pnl": -27400,
+  "total_decided": 23,
+  "total_wins": 9,
+  "win_rate": 39.1,
+  "days": 3
  },
  "days": [
   {
@@ -25,23 +25,46 @@
   {
    "date": "20260812",
    "date_disp": "2026/08/12",
-   "pnl": 30560,
-   "cum_pnl": 30560,
-   "decided": 11,
-   "wins": 7,
-   "win_rate": 63.6,
-   "entries": 11,
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
    "fires": 251,
-   "turnover": 15057210,
+   "turnover": 0,
    "by_strategy": {
     "B": {
-     "pnl": 30560,
-     "decided": 11,
-     "wins": 7,
-     "win_rate": 63.6,
-     "entries": 11,
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
      "fires": 251,
-     "turnover": 15057210
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260813",
+   "date_disp": "2026/08/13",
+   "pnl": -27400,
+   "cum_pnl": -27400,
+   "decided": 23,
+   "wins": 9,
+   "win_rate": 39.1,
+   "entries": 23,
+   "fires": 245,
+   "turnover": 27879680,
+   "by_strategy": {
+    "B": {
+     "pnl": -27400,
+     "decided": 23,
+     "wins": 9,
+     "win_rate": 39.1,
+     "entries": 23,
+     "fires": 245,
+     "turnover": 27879680
     }
    }
   }
