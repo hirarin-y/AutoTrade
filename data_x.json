@@ -1,11 +1,11 @@
 {
  "label": "X Bオンリー",
- "generated_at": "2026-08-13 15:40:04",
+ "generated_at": "2026-08-14 15:40:05",
  "summary": {
-  "total_pnl": -27400,
-  "total_decided": 23,
-  "total_wins": 9,
-  "win_rate": 39.1,
+  "total_pnl": 0,
+  "total_decided": 0,
+  "total_wins": 0,
+  "win_rate": 0.0,
   "days": 3
  },
  "days": [
@@ -48,23 +48,23 @@
   {
    "date": "20260813",
    "date_disp": "2026/08/13",
-   "pnl": -27400,
-   "cum_pnl": -27400,
-   "decided": 23,
-   "wins": 9,
-   "win_rate": 39.1,
-   "entries": 23,
+   "pnl": 0,
+   "cum_pnl": 0,
+   "decided": 0,
+   "wins": 0,
+   "win_rate": 0.0,
+   "entries": 0,
    "fires": 245,
-   "turnover": 27879680,
+   "turnover": 0,
    "by_strategy": {
     "B": {
-     "pnl": -27400,
-     "decided": 23,
-     "wins": 9,
-     "win_rate": 39.1,
-     "entries": 23,
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
      "fires": 245,
-     "turnover": 27879680
+     "turnover": 0
     }
    }
   }
