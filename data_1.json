@@ -1,12 +1,12 @@
 {
  "label": "① A/B/D/E 統合",
- "generated_at": "2026-09-09 15:40:06",
+ "generated_at": "2026-09-10 15:40:11",
  "summary": {
-  "total_pnl": 470140,
-  "total_decided": 497,
-  "total_wins": 227,
-  "win_rate": 45.7,
-  "days": 77
+  "total_pnl": 475750,
+  "total_decided": 503,
+  "total_wins": 231,
+  "win_rate": 45.9,
+  "days": 78
  },
  "days": [
   {
@@ -2194,6 +2194,47 @@
      "win_rate": 0.0,
      "entries": 0,
      "fires": 4,
+     "turnover": 0
+    }
+   }
+  },
+  {
+   "date": "20260910",
+   "date_disp": "2026/09/10",
+   "pnl": 5610,
+   "cum_pnl": 475750,
+   "decided": 6,
+   "wins": 4,
+   "win_rate": 66.7,
+   "entries": 6,
+   "fires": 202,
+   "turnover": 13579160,
+   "by_strategy": {
+    "A": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 11,
+     "turnover": 0
+    },
+    "B": {
+     "pnl": 5610,
+     "decided": 6,
+     "wins": 4,
+     "win_rate": 66.7,
+     "entries": 6,
+     "fires": 186,
+     "turnover": 13579160
+    },
+    "D": {
+     "pnl": 0,
+     "decided": 0,
+     "wins": 0,
+     "win_rate": 0.0,
+     "entries": 0,
+     "fires": 5,
      "turnover": 0
     }
    }
